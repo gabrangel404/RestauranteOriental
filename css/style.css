@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imagens/comidajap.png);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 25px;
+    text-shadow: 5px 5px 5px #573f26;
+}
+
+span {
+    color: #f5d4a2;
+}
+
+.opcoes {
+    font-size: 20px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: row;
+    gap: 60px;
+}
+
+#bot1 {
+    cursor: pointer;
+    border-color: #45352d;
+    transition: 0.5s;
+}
+
+#bot1:hover {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #45352d;
+    border-color: #45352d;
+}
+
+#bot2 {
+    cursor: pointer;
+    border-color: #45352d;
+    transition: 0.5s;
+    
+}
+
+#bot2:hover {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #45352d;
+    border-color: #45352d;
+}
+
+#bot3 {
+    cursor: pointer;
+    border-color: #45352d;
+    transition: 0.5s;
+}
+
+#bot3:hover {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #45352d;
+    border-color: #45352d;
+}
+
+#bot4 {
+    cursor: pointer;
+    border-color: #45352d;
+    transition: 0.5s;
+}
+
+#bot4:hover {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #45352d;
+    border-color: #45352d;
+}
+
+.cabeca {
+    background-color: #1a1013;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 40px;
+    padding-top: 100px;
+    background-color: #1a1013;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#marcelo {
+    font-size: 20px;
+    color: #F7E3CB;
+    background-color: #45352d;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#marcelo:hover {
+    transform: scale(1.2);
+}
